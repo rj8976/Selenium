@@ -1,0 +1,8 @@
+chrkey=webdriver.chrome.driver
+cpath=src\\test\\resources\\drivers\\chromedriver.exe
+url=https://opensource-demo.orangehrmlive.com/
+uname=txtUsername:=id
+unamevalue=admin
+pword=//*[@id="txtPassword"]:=xpath
+pwordvalue=admin123
+login=input[value=LOGIN]:=cssSelector

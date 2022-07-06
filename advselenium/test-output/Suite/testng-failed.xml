@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GridTest2(failed)">
+    <parameter name="node" value="http://192.168.0.108:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="in.rajesh.day4.ExGrid">
+        <methods>
+          <include name="gridDemo"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.rajesh.day4.ExGrid -->
+    </classes>
+  </test> <!-- GridTest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
